@@ -947,15 +947,71 @@ footer {
 
 @media (max-width: 900px) {
   .hero {
-    grid-template-columns: 1fr;
-    gap: 42px;
+    grid-template-columns: minmax(0, 132px) minmax(0, 1fr);
+    grid-template-areas:
+      "message message"
+      "video action";
+    gap: 14px 16px;
+    padding: 8px 0 12px;
+    align-items: start;
+  }
+
+  .hero-message-side {
+    grid-area: message;
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .hero-message-side .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    margin-bottom: 8px;
+  }
+
+  .hero-message-side h1 {
+    font-size: clamp(1.7rem, 7vw, 2.25rem);
+    line-height: 1.12;
+    max-width: none;
+  }
+
+  .hero-video-side {
+    grid-area: video;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    min-width: 0;
   }
 
   .hero-video-wrap {
-    max-width: 100%;
+    max-width: 132px;
+    margin: 0;
+  }
+
+  .hero-action-side {
+    grid-area: action;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .hero-action-side .hero-text {
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin-bottom: 12px;
+    max-width: none;
   }
 
   .diamond-actions {
-    gap: 16px;
+    gap: 8px;
+  }
+
+  .diamond-action {
+    font-size: 0.95rem;
+    gap: 10px;
+    max-width: 100%;
+  }
+
+  .diamond-action img {
+    width: 42px;
+    height: 42px;
   }
 }
