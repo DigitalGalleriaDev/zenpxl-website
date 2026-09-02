@@ -1,4 +1,5 @@
  import './style.css'
+import { initMobileNav } from './nav.js'
 
 document.querySelector('#app').innerHTML = `
   <div class="page">
@@ -7,7 +8,13 @@ document.querySelector('#app').innerHTML = `
   <img src="/ZenPXLWordmark_OnBlack (1).png" alt="ZenPXL">
 </div>
 
-      <nav class="links">
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="links" id="site-menu">
         <a href="/">Home</a>
         <a href="/explore.html">Explore the App</a>
         <a href="/about.html">About</a>
@@ -167,6 +174,8 @@ document.querySelector('#app').innerHTML = `
     </footer>
   </div>
 `
+
+initMobileNav()
 
 const experienceCard = document.querySelector('#pxlExperience')
 const categoryEl = document.querySelector('#pxlCategory')

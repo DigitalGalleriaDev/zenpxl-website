@@ -78,6 +78,10 @@ a {
     0 0 46px rgba(239, 81, 150, 0.28);
 }
 
+.nav-toggle {
+  display: none;
+}
+
 .hero {
   min-height: 72vh;
   display: grid;
@@ -696,8 +700,69 @@ footer {
 }
 
 @media (max-width: 900px) {
+  .nav {
+    position: relative;
+    z-index: 30;
+  }
+
+  .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    margin-left: auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .nav-toggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #70ccd4;
+    box-shadow: 0 0 10px rgba(112, 204, 212, 0.4);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .nav.is-open .nav-toggle span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .nav.is-open .nav-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav.is-open .nav-toggle span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
   .links {
     display: none;
+    position: absolute;
+    top: calc(100% - 4px);
+    left: 0;
+    right: 0;
+    z-index: 31;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 8px 0 16px;
+    background: #08080d;
+  }
+
+  .nav.is-open .links {
+    display: flex;
+  }
+
+  .links a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
   }
 
   .hero {
