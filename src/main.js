@@ -67,6 +67,7 @@ document.querySelector('#app').innerHTML = `
       <section class="try-section" id="try">
         <p class="try-intro">In just 10 seconds, a PXL can inspire you to think differently, notice the good, choose kindness, take action, or simply smile — little moments that can come together to inspire a life filled with more joy, meaning, and positivity.</p>
         <div class="section-label">TRY A PXL</div>
+        <p class="try-lead">ZenPXL sends you bite-sized thoughts, prompts, and actions throughout the day. Each takes about 10 seconds—try it in the moment, or save it to revisit at the end of your day.</p>
 
         <div class="pxl-card" id="pxlExperience">
           <div class="pxl-live" id="pxlLive">

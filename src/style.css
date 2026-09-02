@@ -233,7 +233,30 @@ h1 {
 
 .try-section .section-label {
   font-size: 1.56rem;
-  margin: 0 0 36px;
+  margin: 0 0 16px;
+}
+
+.try-lead {
+  max-width: 860px;
+  margin: 0 auto 36px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  line-height: 1.55;
+  background: linear-gradient(
+    90deg,
+    #fff6c9 0%,
+    #ffe08a 22%,
+    #fff3b0 40%,
+    #e8b04a 62%,
+    #fff1a8 82%,
+    #fff6c9 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .pxl-card {
@@ -789,6 +812,11 @@ footer {
   }
 
   .try-section .section-label {
+    margin-bottom: 12px;
+  }
+
+  .try-lead {
+    font-size: 1.02rem;
     margin-bottom: 28px;
   }
 
