@@ -920,9 +920,8 @@ footer {
   align-items: flex-start;
 }
 
-.hero-message-side .eyebrow {
-  margin-bottom: 18px;
-  font-size: 1.05rem;
+.hero-message-side .eyebrow,
+.hero-message-side .hero-pxl-def {
   background: linear-gradient(
     90deg,
     #fff2b8 0%,
@@ -933,17 +932,22 @@ footer {
   );
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent !important;
+}
+
+.hero-message-side .eyebrow {
+  margin-bottom: 18px;
+  font-size: 1.05rem;
 }
 
 .hero-message-side .hero-pxl-def {
   margin: 18px 0 0;
   max-width: 420px;
-  font-size: 1.05rem;
-  font-weight: 800;
+  font-size: 0.88rem;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f2b84b;
 }
 
 .hero-message-side h1 {
@@ -979,7 +983,8 @@ footer {
   }
 
   .hero-message-side .hero-pxl-def {
-    font-size: 0.72rem;
+    font-size: 0.65rem;
+    font-weight: 400;
     margin-top: 12px;
     max-width: none;
   }
