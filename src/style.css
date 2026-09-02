@@ -920,7 +920,7 @@ footer {
   align-items: flex-start;
 }
 
- .hero-message-side .eyebrow {
+.hero-message-side .eyebrow {
   margin-bottom: 18px;
   font-size: 1.05rem;
   background: linear-gradient(
@@ -934,6 +934,16 @@ footer {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent !important;
+}
+
+.hero-message-side .hero-pxl-def {
+  margin: 18px 0 0;
+  max-width: 420px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f2b84b;
 }
 
 .hero-message-side h1 {
@@ -966,6 +976,12 @@ footer {
     font-size: 0.72rem;
     letter-spacing: 0.12em;
     margin-bottom: 8px;
+  }
+
+  .hero-message-side .hero-pxl-def {
+    font-size: 0.72rem;
+    margin-top: 12px;
+    max-width: none;
   }
 
   .hero-message-side h1 {

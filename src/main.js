@@ -20,6 +20,7 @@ document.querySelector('#app').innerHTML = `
      <div class="hero-message-side">
   <div class="eyebrow">A SMALL RESET FOR A BUSY MIND</div>
   <h1>One small PXL can change the next moment.</h1>
+  <p class="hero-pxl-def">A PXL (pronounced “pixel”) is a bite-sized visual reminder designed to shift your thoughts, mood, or focus.</p>
 </div>
   <div class="hero-video-side">
      
