@@ -699,6 +699,44 @@ h1 {
   color: #aaa6b7;
 }
 
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+  padding: 90px 0 130px;
+  border-top: 1px solid #292730;
+  scroll-margin-top: 24px;
+}
+
+.contact h2 {
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.contact p {
+  margin: 0 0 18px;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #aaa6b7;
+}
+
+.contact p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-email {
+  color: #70ccd4;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-email:hover {
+  color: #fff6c9;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -796,7 +834,8 @@ footer {
   }
 
   .three-up,
-  .about {
+  .about,
+  .contact {
     grid-template-columns: 1fr;
   }
 

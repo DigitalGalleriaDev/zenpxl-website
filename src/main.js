@@ -164,6 +164,17 @@ document.querySelector('#app').innerHTML = `
       </section>
     </main>
 
+    <section class="contact" id="contact">
+      <div>
+        <h2>Support &amp; Contact</h2>
+      </div>
+      <div>
+        <p>Need help with ZenPXL? We’re happy to help.</p>
+        <p>For questions about your account, the ZenPXL app, billing, privacy, or technical issues, contact us at <a class="contact-email" href="mailto:support@zenpxl.com">support@zenpxl.com</a>.</p>
+        <p>We’ll get back to you as soon as we can.</p>
+      </div>
+    </section>
+
     <footer>
       <div>© 2026 ZenPXL</div>
 
