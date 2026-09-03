@@ -168,8 +168,9 @@ document.querySelector('#app').innerHTML = `
       <div>© 2026 ZenPXL</div>
 
       <div class="footer-links">
-        <a href="#privacy">Privacy Policy</a>
-        <a href="#terms">Terms of Use</a>
+        <a href="https://www.iubenda.com/privacy-policy/17417543">Privacy Policy</a>
+        <a href="https://www.iubenda.com/privacy-policy/17417543/cookie-policy">Cookie Policy</a>
+        <a href="https://www.iubenda.com/terms-and-conditions/17417543">Terms &amp; Conditions</a>
         <a href="#contact">Support / Contact</a>
       </div>
     </footer>
