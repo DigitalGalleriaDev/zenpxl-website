@@ -282,9 +282,9 @@ document.querySelector('#app').innerHTML = `
     <footer>
       <div>© 2026 ZenPXL</div>
       <div class="footer-links">
-        <a href="https://www.iubenda.com/privacy-policy/17417543">Privacy Policy</a>
-        <a href="https://www.iubenda.com/privacy-policy/17417543/cookie-policy">Cookie Policy</a>
-        <a href="https://www.iubenda.com/terms-and-conditions/17417543">Terms &amp; Conditions</a>
+        <a href="https://www.iubenda.com/privacy-policy/17417543" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+        <a href="https://www.iubenda.com/privacy-policy/17417543/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a>
+        <a href="https://www.iubenda.com/terms-and-conditions/17417543" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a>
         <a href="/#contact">Support / Contact</a>
       </div>
     </footer>
