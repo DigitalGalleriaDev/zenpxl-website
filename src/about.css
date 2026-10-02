@@ -24,6 +24,15 @@
   color: #aaa6b7;
 }
 
+.about-hero .company-line {
+  margin: 0 auto 22px;
+  max-width: 36rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e8e4f2;
+}
+
 .about-hero p:last-of-type {
   margin-bottom: 0;
 }

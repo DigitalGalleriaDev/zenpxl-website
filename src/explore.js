@@ -291,12 +291,18 @@ document.querySelector('#app').innerHTML = `
     </section>
 
     <footer>
-      <div>© 2026 ZenPXL</div>
-      <div class="footer-links">
-        <a href="https://www.iubenda.com/privacy-policy/17417543" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-        <a href="https://www.iubenda.com/privacy-policy/17417543/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a>
-        <a href="https://www.iubenda.com/terms-and-conditions/17417543" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a>
-        <a href="#contact">Support / Contact</a>
+      <div class="footer-company">
+        <p class="company-line">ZenPXL is developed and operated by Digital Galleria Designs, Ltd., based in Pella, Iowa.</p>
+        <a class="footer-contact" href="mailto:support@zenpxl.com">Contact Us</a>
+      </div>
+      <div class="footer-bar">
+        <div>© 2026 ZenPXL</div>
+        <div class="footer-links">
+          <a href="https://www.iubenda.com/privacy-policy/17417543" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://www.iubenda.com/privacy-policy/17417543/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a>
+          <a href="https://www.iubenda.com/terms-and-conditions/17417543" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a>
+          <a href="#contact">Support / Contact</a>
+        </div>
       </div>
     </footer>
   </div>
