@@ -51,30 +51,3 @@
 .delete-page a:hover {
   color: #fff6c9;
 }
-
-.delete-request {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 52px;
-  margin: 8px 0 8px;
-  padding: 0 22px;
-  border-radius: 999px;
-  background: #ffffff;
-  color: #111118 !important;
-  font-size: 1.05rem;
-  font-weight: 700;
-  text-decoration: none !important;
-}
-
-.delete-request:hover {
-  color: #111118 !important;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.12);
-}
-
-@media (max-width: 600px) {
-  .delete-request {
-    width: 100%;
-  }
-}

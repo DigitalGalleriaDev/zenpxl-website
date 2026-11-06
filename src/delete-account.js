@@ -27,8 +27,7 @@ document.querySelector('#app').innerHTML = `
     <main class="delete-page">
       <p class="company-line">ZenPXL is developed and operated by Digital Galleria Designs, Ltd., based in Pella, Iowa.</p>
       <h1>Delete your ZenPXL account</h1>
-      <p>You can delete your ZenPXL account in the app, or ask Digital Galleria Designs, Ltd. to delete it by email.</p>
-      <p><a class="delete-request" href="${deletionMail}">Request account deletion</a></p>
+      <p>You can delete your ZenPXL account in the app.</p>
 
       <h2>In the app</h2>
       <ol>
@@ -39,9 +38,6 @@ document.querySelector('#app').innerHTML = `
         <li>Tap Cancel to leave without deleting.</li>
       </ol>
       <p>Sign Out does not delete your account or your saved data.</p>
-
-      <h2>Without the app</h2>
-      <p>Email <a href="${deletionMail}">support@zenpxl.com</a> and ask us to delete the account. Use the email address on the ZenPXL account. Do not send a password.</p>
 
       <h2>What is deleted</h2>
       <p>When deletion succeeds, ZenPXL deletes the account and the cloud data stored for it. That includes Picture It photos, Personal Voices, Dear Me, Future Me, and Masterpiece images.</p>
@@ -57,6 +53,9 @@ document.querySelector('#app').innerHTML = `
       <h2>Subscriptions</h2>
       <p>Deleting your account does not cancel a Google Play or Apple subscription.</p>
       <p>To stop renewal in the app, tap Profile, then tap Manage or cancel subscription. That opens the Google Play or Apple subscription page. You can cancel anytime through Google Play or Apple subscriptions. Canceling stops renewal. Access continues until the current period ends. Opening that page does not by itself cancel the subscription.</p>
+
+      <h2>Without the app</h2>
+      <p>If you cannot open the app, email <a href="${deletionMail}">support@zenpxl.com</a> and ask Digital Galleria Designs, Ltd. to delete the account. Use the email address on the ZenPXL account. Do not send a password.</p>
     </main>
 
     <footer>
