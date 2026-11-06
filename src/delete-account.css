@@ -1,0 +1,80 @@
+.delete-page {
+  max-width: 760px;
+  padding: 12px 0 72px;
+}
+
+.delete-page h1 {
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  max-width: 14ch;
+  margin-bottom: 18px;
+}
+
+.delete-page .company-line {
+  margin: 0 0 18px;
+  max-width: 36rem;
+}
+
+.delete-page h2 {
+  margin: 36px 0 12px;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: #fff;
+}
+
+.delete-page p,
+.delete-page li {
+  font-size: 1.08rem;
+  line-height: 1.65;
+  color: #c8c4d4;
+}
+
+.delete-page p {
+  margin: 0 0 14px;
+}
+
+.delete-page ol {
+  margin: 0 0 14px;
+  padding-left: 1.25rem;
+}
+
+.delete-page li {
+  margin: 0 0 8px;
+}
+
+.delete-page a {
+  color: #70ccd4;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.delete-page a:hover {
+  color: #fff6c9;
+}
+
+.delete-request {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  margin: 8px 0 8px;
+  padding: 0 22px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #111118 !important;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.delete-request:hover {
+  color: #111118 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 600px) {
+  .delete-request {
+    width: 100%;
+  }
+}

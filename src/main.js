@@ -188,6 +188,7 @@ document.querySelector('#app').innerHTML = `
           <a href="https://www.iubenda.com/privacy-policy/17417543/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie Policy</a>
           <a href="https://www.iubenda.com/terms-and-conditions/17417543" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a>
           <a href="#contact">Support / Contact</a>
+        <a href="/delete-account">Delete account</a>
         </div>
       </div>
     </footer>
