@@ -54,6 +54,18 @@ document.querySelector('#app').innerHTML = `
       <p>Deleting your account does not cancel a Google Play or Apple subscription.</p>
       <p>To stop renewal in the app, tap Profile, then tap Manage or cancel subscription. That opens the Google Play or Apple subscription page. You can cancel anytime through Google Play or Apple subscriptions. Canceling stops renewal. Access continues until the current period ends. Opening that page does not by itself cancel the subscription.</p>
 
+      <h2>Delete individual items and keep your account</h2>
+      <p>You can delete one item and stay signed in. These controls do not delete your ZenPXL account. Delete Account / Delete My Data, above, is the control that deletes the account.</p>
+      <ul>
+        <li>Dear Me: open the letter, tap the trash icon, then tap Delete.</li>
+        <li>Future Me: open the message, tap the trash icon, then tap Delete.</li>
+        <li>Picture It: on the board, choose Delete Photo. Or open the photo, tap the trash icon, then confirm.</li>
+        <li>Personal Voices: on the recording or video, tap Delete, then confirm Delete. The Personal PXL wording stays.</li>
+        <li>Personal PXLs: tap Profile, tap Personal PXLs, tap Delete, then confirm Delete. This removes it from the phone and the account right away. It does not go to Recently Deleted.</li>
+      </ul>
+      <p>A backed-up letter, photo, recording, or video normally stays recoverable in Recently Deleted for 30 days. A daily cleanup then removes it. If the phone is offline, the cloud copy stays until sync records the deletion. The cleanup that runs 90 days after Plus ends can remove that copy sooner.</p>
+      <p>After ZenPXL Plus ends, cloud copies are removed after 90 days. A letter deleted after Plus ends may stay in the cloud until that cleanup, because letter deletion is not uploaded once Plus expires.</p>
+
       <h2>Without the app</h2>
       <p>If you cannot open the app, email <a href="${deletionMail}">support@zenpxl.com</a> and ask Digital Galleria Designs, Ltd. to delete the account. Use the email address on the ZenPXL account. Do not send a password.</p>
     </main>
